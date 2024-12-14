@@ -4,8 +4,8 @@
 #include <SFML/Audio.hpp>  // 음악 관련 헤더
 #include <windows.h>
 #include <string>
-#include<vector>
-#include<iostream>
+#include <vector>
+#include <iostream>
 #include "MoveableObject.h" // Leaf,Dotori,ThornBush의 부모 클래스 헤더
 #include "Leaf.h" // MoveableObject의 자식 클래스 Leaf
 #include "Dotori.h" // MoveableObject의 자식 클래스 Dotori
@@ -374,7 +374,7 @@ int main() {
 			// 게임 오버 화면 표시
 			showGameOverScreen(window);
 
-			// 'P' 키로 게임 재시작, 'X' 키로 종료
+			// 'X' 키로 종료
 			while (window.isOpen()) {
 				Event event;
 				while (window.pollEvent(event)) {
