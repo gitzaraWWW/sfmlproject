@@ -18,10 +18,34 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="main2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Leaf.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Dotori.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ThornBush.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mmmm.h">
       <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveableObject.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Leaf.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Dotori.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ThornBush.h">
+      <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
